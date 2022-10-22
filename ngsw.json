@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1666442800392,
+  "index": "/lm-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/lm-pwa/favicon.ico",
+        "/lm-pwa/index.html",
+        "/lm-pwa/main.0b2200dfe754cea5.js",
+        "/lm-pwa/manifest.webmanifest",
+        "/lm-pwa/polyfills.f4c20884c0bf6209.js",
+        "/lm-pwa/runtime.a95a06da489f0b84.js",
+        "/lm-pwa/styles.cd983f1cb653e961.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/lm-pwa/assets/balcony.jpeg",
+        "/lm-pwa/assets/icons/icon-128x128.png",
+        "/lm-pwa/assets/icons/icon-144x144.png",
+        "/lm-pwa/assets/icons/icon-152x152.png",
+        "/lm-pwa/assets/icons/icon-192x192.png",
+        "/lm-pwa/assets/icons/icon-384x384.png",
+        "/lm-pwa/assets/icons/icon-512x512.png",
+        "/lm-pwa/assets/icons/icon-72x72.png",
+        "/lm-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/lm-pwa/assets/balcony.jpeg": "01b03e1597ad51259755f2f543a0e2e457e36d4d",
+    "/lm-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/lm-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/lm-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/lm-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/lm-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/lm-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/lm-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/lm-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/lm-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/lm-pwa/index.html": "9604d701244c67f45c0f121d8b1d75782cca7dbb",
+    "/lm-pwa/main.0b2200dfe754cea5.js": "4818f0d4b6a3911adadb16f8eadf0cc59755e6ac",
+    "/lm-pwa/manifest.webmanifest": "f480f8a1b9090d4006ead8387fffa6467b7c4f8e",
+    "/lm-pwa/polyfills.f4c20884c0bf6209.js": "9ac0a4935b01caaba06ffe0a3d2adc41079fcf4a",
+    "/lm-pwa/runtime.a95a06da489f0b84.js": "a19bf1c1df15992cc2971e686eb835a9bce988ea",
+    "/lm-pwa/styles.cd983f1cb653e961.css": "a3e4350976ecfd0818a297e8e6c1aea21878b4a3"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
